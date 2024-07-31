@@ -1,0 +1,39 @@
+.news-card {
+    border: 1px solid rgb(235, 228, 228);
+    border-radius: 8px;
+    background: rgb(235, 228, 228);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.news-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.title{
+    height: 100px;
+    overflow-y: hidden;
+}
+.description {
+ height: 120px;
+ overflow-y: hidden;
+}
+.news-card a {
+    color: #522258;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}

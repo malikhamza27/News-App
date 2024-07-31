@@ -1,0 +1,18 @@
+.load-more {
+    padding: 10px 40px;
+    background-color: #522258;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.loadbutton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.load-more:hover {
+    background-color: #8C3061;
+}
